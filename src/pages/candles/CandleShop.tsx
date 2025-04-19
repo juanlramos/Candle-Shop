@@ -1,7 +1,7 @@
 export const CandleShop = () => {
-    return (
-        <>
-            <h1>Candle Shop</h1>
-        </>
-    )
-}
+  return (
+    <>
+      <h1>Candle Shop</h1>
+    </>
+  );
+};
