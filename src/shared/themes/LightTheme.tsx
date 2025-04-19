@@ -8,8 +8,9 @@ export const LightTheme = {
             headerBg: "#EEEEEE",
             footerBg: "#EEEEEE",
         },
-        Typography: {
-            linkHoverDecoration: "underline",
-        }
+        Menu: {
+            itemBg: "#EEEEEE",  
+        },
+
     }
 };

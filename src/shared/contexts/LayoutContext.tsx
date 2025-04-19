@@ -1,10 +1,17 @@
 import { createContext, useContext } from "react";
-import { Button, Layout, Typography } from "antd";
-import { FaInstagram, FaFacebook, FaXTwitter } from "react-icons/fa6";
+import { Button, Layout, Menu, Typography } from "antd";
+import {
+  FaInstagram,
+  FaFacebook,
+  FaXTwitter,
+  //FaCartPlus,
+  //FaUser,
+} from "react-icons/fa6";
+import { useLocation } from "react-router-dom";
 
 const { Header, Content, Footer } = Layout;
 
-const Link = Typography.Link;
+const { Link, Title } = Typography;
 
 interface ILayoutContext {}
 
@@ -15,11 +22,82 @@ interface ILayoutProvider {
 }
 
 export const LayoutProvider = ({ children }: ILayoutProvider) => {
+  const location = useLocation();
+  const getActiveKey = () => {
+    const path = location.pathname;
+    if(path.includes('shop')) return 'shop';
+    if(path.includes('about')) return 'about';
+    if(path.includes('home')) return 'home';
+    return '';
+  };
+
   return (
     <LayoutContext.Provider value={{}}>
       <Layout style={{ minHeight: "100vh" }}>
-        <Header>Header</Header>
+        <Header style={{ display: "flex", alignItems: "center" }}>
+          <Title
+            level={4}
+            style={{
+              color: "#FF5733", //retirar quando tiver a logo pronta
+              margin: 0,
+              paddingLeft: 24,
+            }}
+          >
+            <a href="/">Candle Shop</a>
+          </Title>
+
+          <Menu
+            mode="horizontal"
+            selectedKeys={[getActiveKey()]}
+            style={{
+              justifyContent: "center",
+              flex: 1,
+              borderBottom: "none",
+              background: "transparent",
+            }}
+          >
+            <Menu.Item key={"home"}>
+              <Link href="/home">Home</Link>
+            </Menu.Item>
+            <Menu.Item key={"shop"}>
+              <Link href="/candle-shop">Shop</Link>
+            </Menu.Item>
+            <Menu.Item key={"about"}>
+              <Link href="/about">About Us</Link>
+            </Menu.Item>
+          </Menu>
+
+          <div
+            style={{
+              marginLeft: "auto",
+              width: 100,
+              display: "flex",
+              justifyContent: "space-around",
+              alignItems: "center",
+            }}
+          >
+            {/*
+            //ultilizar quando for implementado fluxo de usuario e carrinho de compras
+            <Button
+              type="text"
+              icon={<FaUser size={20} />}
+              size="large"
+              shape="circle"
+              href="#"
+            />
+            <Button
+              type="text"
+              icon={<FaCartPlus size={20} />}
+              size="large"
+              shape="circle"
+              href="#"
+            />
+            */}
+          </div>
+        </Header>
+
         <Content>{children}</Content>
+
         <Footer
           style={{
             textAlign: "center",
@@ -55,8 +133,8 @@ export const LayoutProvider = ({ children }: ILayoutProvider) => {
             />
           </p>
           <p>
-            &copy; 2025
-            {new Date().getFullYear() == 2025 ? "" : -new Date().getFullYear()}
+            &copy; 2024
+            {new Date().getFullYear() == 2024 ? "" : -new Date().getFullYear()}
           </p>
           <p>
             Website Criated by{" "}
