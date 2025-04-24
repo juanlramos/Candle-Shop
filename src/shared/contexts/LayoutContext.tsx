@@ -38,7 +38,6 @@ export const LayoutProvider = ({ children }: ILayoutProvider) => {
           <Title
             level={4}
             style={{
-              color: "#FF5733", //retirar quando tiver a logo pronta
               margin: 0,
               paddingLeft: 24,
             }}
@@ -133,8 +132,8 @@ export const LayoutProvider = ({ children }: ILayoutProvider) => {
             />
           </p>
           <p>
-            &copy; 2024
-            {new Date().getFullYear() == 2024 ? "" : -new Date().getFullYear()}
+            &copy; 2025
+            {new Date().getFullYear() == 2025 ? "" : -new Date().getFullYear()}
           </p>
           <p>
             Website Criated by{" "}

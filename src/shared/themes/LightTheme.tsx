@@ -9,7 +9,7 @@ export const LightTheme = {
             footerBg: "#EEEEEE",
         },
         Menu: {
-            itemBg: "#EEEEEE",  
+            //itemBg: "#EEEEEE",  
         },
 
     }
