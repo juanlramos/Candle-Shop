@@ -1,5 +1,63 @@
 {
-    "candles": [
+  "candlesFOTOS": [
+    {
+      "id": 1,
+      "title": "Candle 1",
+      "description": "Description 1",
+      "price": 10,
+      "image": "https://cdn.tescoma.com/content/images/product/vela-perfumada-fancy-home-410-g-mojito_121816.jpg?width=250"
+    },
+    {
+      "id": 2,
+      "title": "Candle 2",
+      "description": "Description 2",
+      "price": 20,
+      "image": "https://cdn.tescoma.com/content/images/product/vela-perfumada-fancy-home-410-g-especiarias-exoticas_123106.jpg?width=250"
+    },
+    {
+      "id": 3,
+      "title": "Candle 3",
+      "description": "Description 3",
+      "price": 30,
+      "image": "https://cdn.tescoma.com/content/images/product/vela-perfumada-fancy-home-410-g-provenca_126612.jpg?width=250"
+    },
+    {
+      "id": 4,
+      "title": "Candle 4",
+      "description": "Description 4",
+      "price": 40,
+      "image": "https://cdn.tescoma.com/content/images/product/vela-perfumada-fancy-home-410-g-provenca_126612.jpg?width=250"
+    },
+    {
+      "id": 5,
+      "title": "Candle 5",
+      "description": "Description 5",
+      "price": 50,
+      "image": "https://cdn.tescoma.com/content/images/product/vela-perfumada-fancy-home-410-g-especiarias-exoticas_123106.jpg?width=250"
+    },
+    {
+      "id": 6,
+      "title": "Candle 6",
+      "description": "Description 6",
+      "price": 60,
+      "image": "https://cdn.tescoma.com/content/images/product/vela-perfumada-fancy-home-410-g-provenca_126612.jpg?width=250"
+    },
+    {
+      "id": 7,
+      "title": "Candle 7",
+      "description": "Description 7",
+      "price": 70,
+      "image": "https://cdn.tescoma.com/content/images/product/vela-perfumada-fancy-home-410-g-especiarias-exoticas_123106.jpg?width=250"
+    },
+    {
+      "id": 8,
+      "title": "Candle 8",
+      "description": "Description 8",
+      "price": 80,
+      "image": "https://cdn.tescoma.com/content/images/product/vela-perfumada-fancy-home-410-g-mojito_121816.jpg?width=250"
+    }
+  ],
+  "candles": [
       {
         "id": 1,
         "title": "Candle 1",
@@ -57,5 +115,4 @@
         "image": "https://placehold.co/250/png"
       }
     ]
-  }
-  
+}

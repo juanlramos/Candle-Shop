@@ -5,7 +5,7 @@ import {
   FaFacebook,
   FaXTwitter,
   //FaCartPlus,
-  //FaUser,
+  FaUser,
 } from "react-icons/fa6";
 import { useLocation } from "react-router-dom";
 
@@ -25,10 +25,10 @@ export const LayoutProvider = ({ children }: ILayoutProvider) => {
   const location = useLocation();
   const getActiveKey = () => {
     const path = location.pathname;
-    if(path.includes('shop')) return 'shop';
-    if(path.includes('about')) return 'about';
-    if(path.includes('home')) return 'home';
-    return '';
+    if (path.includes("shop")) return "shop";
+    if (path.includes("about")) return "about";
+    if (path.includes("home")) return "home";
+    return "";
   };
 
   return (
@@ -75,15 +75,15 @@ export const LayoutProvider = ({ children }: ILayoutProvider) => {
               alignItems: "center",
             }}
           >
-            {/*
-            //ultilizar quando for implementado fluxo de usuario e carrinho de compras
-            <Button
-              type="text"
-              icon={<FaUser size={20} />}
-              size="large"
-              shape="circle"
-              href="#"
-            />
+            {
+              //ultilizar quando for implementado fluxo de usuario e carrinho de compras
+              <Button
+                type="text"
+                icon={<FaUser size={20} />}
+                size="large"
+                shape="circle"
+                href="#"
+              /> /*
             <Button
               type="text"
               icon={<FaCartPlus size={20} />}
@@ -91,7 +91,8 @@ export const LayoutProvider = ({ children }: ILayoutProvider) => {
               shape="circle"
               href="#"
             />
-            */}
+            */
+            }
           </div>
         </Header>
 

@@ -20,7 +20,7 @@ export const AppRoutes = () => {
             <Route path="*" element={<Error />} />
             <Route path="/about" element={<AboutUs />} />
             <Route path="/candle-shop" element={<CandleShop />} />
-            <Route path="/candle-detail" element={<CandleDetail />} />
+            <Route path="/candle-detail/:id" element={<CandleDetail />} />
           </Routes>
         </LayoutProvider>
       </BrowserRouter>
