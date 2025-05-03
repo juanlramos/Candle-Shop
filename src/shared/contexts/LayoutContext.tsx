@@ -4,8 +4,8 @@ import {
   FaInstagram,
   FaFacebook,
   FaXTwitter,
-  //FaCartPlus,
   FaUser,
+  //FaCartShopping,
 } from "react-icons/fa6";
 import { useLocation } from "react-router-dom";
 
@@ -77,20 +77,24 @@ export const LayoutProvider = ({ children }: ILayoutProvider) => {
           >
             {
               //ultilizar quando for implementado fluxo de usuario e carrinho de compras
+              
+              
               <Button
                 type="text"
                 icon={<FaUser size={20} />}
                 size="large"
                 shape="circle"
                 href="#"
-              /> /*
+              />
+            /*
             <Button
               type="text"
-              icon={<FaCartPlus size={20} />}
+              icon={<FaCartShopping size={20} />}
               size="large"
               shape="circle"
               href="#"
             />
+              
             */
             }
           </div>

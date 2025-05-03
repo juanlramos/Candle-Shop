@@ -1,56 +1,56 @@
 {
   "candlesFOTOS": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Candle 1",
       "description": "Description 1",
       "price": 10,
       "image": "https://cdn.tescoma.com/content/images/product/vela-perfumada-fancy-home-410-g-mojito_121816.jpg?width=250"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Candle 2",
       "description": "Description 2",
       "price": 20,
       "image": "https://cdn.tescoma.com/content/images/product/vela-perfumada-fancy-home-410-g-especiarias-exoticas_123106.jpg?width=250"
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "Candle 3",
       "description": "Description 3",
       "price": 30,
       "image": "https://cdn.tescoma.com/content/images/product/vela-perfumada-fancy-home-410-g-provenca_126612.jpg?width=250"
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "Candle 4",
       "description": "Description 4",
       "price": 40,
       "image": "https://cdn.tescoma.com/content/images/product/vela-perfumada-fancy-home-410-g-provenca_126612.jpg?width=250"
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "Candle 5",
       "description": "Description 5",
       "price": 50,
       "image": "https://cdn.tescoma.com/content/images/product/vela-perfumada-fancy-home-410-g-especiarias-exoticas_123106.jpg?width=250"
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "Candle 6",
       "description": "Description 6",
       "price": 60,
       "image": "https://cdn.tescoma.com/content/images/product/vela-perfumada-fancy-home-410-g-provenca_126612.jpg?width=250"
     },
     {
-      "id": 7,
+      "id": "7",
       "title": "Candle 7",
       "description": "Description 7",
       "price": 70,
       "image": "https://cdn.tescoma.com/content/images/product/vela-perfumada-fancy-home-410-g-especiarias-exoticas_123106.jpg?width=250"
     },
     {
-      "id": 8,
+      "id": "8",
       "title": "Candle 8",
       "description": "Description 8",
       "price": 80,
@@ -58,61 +58,68 @@
     }
   ],
   "candles": [
-      {
-        "id": 1,
-        "title": "Candle 1",
-        "description": "Description 1",
-        "price": 10,
-        "image": "https://placehold.co/250/png"
-      },
-      {
-        "id": 2,
-        "title": "Candle 2",
-        "description": "Description 2",
-        "price": 20,
-        "image": "https://placehold.co/250/png"
-      },
-      {
-        "id": 3,
-        "title": "Candle 3",
-        "description": "Description 3",
-        "price": 30,
-        "image": "https://placehold.co/250/png"
-      },
-      {
-        "id": 4,
-        "title": "Candle 4",
-        "description": "Description 4",
-        "price": 40,
-        "image": "https://placehold.co/250/png"
-      },
-      {
-        "id": 5,
-        "title": "Candle 5",
-        "description": "Description 5",
-        "price": 50,
-        "image": "https://placehold.co/250/png"
-      },
-      {
-        "id": 6,
-        "title": "Candle 6",
-        "description": "Description 6",
-        "price": 60,
-        "image": "https://placehold.co/250/png"
-      },
-      {
-        "id": 7,
-        "title": "Candle 7",
-        "description": "Description 7",
-        "price": 70,
-        "image": "https://placehold.co/250/png"
-      },
-      {
-        "id": 8,
-        "title": "Candle 8",
-        "description": "Description 8",
-        "price": 80,
-        "image": "https://placehold.co/250/png"
-      }
-    ]
+    {
+      "id": "1",
+      "title": "Vela Perfumada Lavanda",
+      "description": "Description 1 lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.",
+      "price": 10,
+      "image": "../src/images/Candle1.png",
+      "in_cancelado": false
+    },
+    {
+      "title": "Vela Perfumada Maçã com Canela",
+      "description": "Description 2",
+      "price": 20,
+      "image": "../src/images/Candle2.png",
+      "id": "2",
+      "in_cancelado": false
+    },
+    {
+      "title": "Vela Perfumada Frutas Cítricas",
+      "description": "Description 3",
+      "price": 30,
+      "image": "../src/images/Candle3.png",
+      "id": "3"
+    },
+    {
+      "title": "Vela Perfumada Jasmin",
+      "description": "Description 4",
+      "price": 40,
+      "image": "../src/images/Candle4.png",
+      "id": "4",
+      "in_cancelado": false
+    },
+    {
+      "id": "5",
+      "title": "Vela Perfumada Brisa do Mar",
+      "description": "Description 5",
+      "price": 50,
+      "image": "../src/images/Candle5.png",
+      "in_cancelado": false
+    },
+    {
+      "id": "6",
+      "title": "Vela Perfumada Cheirinho de Chuva",
+      "description": "Description 6",
+      "price": 60,
+      "image": "../src/images/Candle6.png",
+      "in_cancelado": false
+    },
+    {
+      "id": "7",
+      "title": "Vela Perfumada Flore de Cerejeira",
+      "description": "Description 7",
+      "price": 60,
+      "image": "../src/images/Candle7.png",
+      "in_cancelado": false
+    },
+    {
+      "id": "8",
+      "title": "Vela Perfumada Sândalo",
+      "description": "Description 8",
+      "price": 60,
+      "image": "../src/images/Candle8.png",
+      "in_cancelado": false
+    }
+  ]
 }
